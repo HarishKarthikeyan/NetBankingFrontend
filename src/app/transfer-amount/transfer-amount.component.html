@@ -1,0 +1,7 @@
+<div class="transfer-form">
+    <label for="accountReceiver">Account Number of Receiver:</label><br>
+    <input type="text" id="accountReceiver" name="accountReceiver" [(ngModel)]="accountReceiver"><br>
+    <label for="amount">Amount to Send:</label><br>
+    <input type="number" id="amount" name="amount" [(ngModel)]="amount"><br>
+    <button (click)="transferMoney()">Send Money</button>
+</div>

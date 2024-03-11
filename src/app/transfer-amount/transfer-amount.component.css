@@ -1,0 +1,27 @@
+.transfer-form {
+  text-align: center;
+}
+
+.transfer-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.transfer-form input[type="text"],
+.transfer-form input[type="number"],
+.transfer-form button {
+  padding: 8px 16px;
+  margin: 5px;
+}
+
+.transfer-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transfer-form button:hover {
+  background-color: #0056b3;
+}

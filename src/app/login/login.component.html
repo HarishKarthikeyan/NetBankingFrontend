@@ -1,0 +1,8 @@
+<div class="login-form">
+    <label for="accountNumber">Account Number:</label><br>
+    <input type="text" id="accountNumber" name="accountNumber" [(ngModel)]="accountNumber"><br>
+    <label for="password">Password:</label><br>
+    <input type="text" id="password" name="password" [(ngModel)]="password"><br>
+    <button (click)="verifyLogin()">Login</button><br>
+    <span>{{message}}</span>
+</div>

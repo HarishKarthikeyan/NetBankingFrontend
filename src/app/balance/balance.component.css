@@ -1,0 +1,21 @@
+.balance-container {
+  text-align: center;
+}
+
+.balance-container span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.balance-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.balance-container button:hover {
+  background-color: #0056b3;
+}
